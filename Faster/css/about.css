@@ -1,0 +1,10 @@
+.bg-img-about {
+  background-image: url("https://islamramadanabdo.github.io/Faster/assets/img/page-header.jpg");
+  background-size: cover;
+}
+.color-g{
+    color:grey;
+}
+.bi-social:hover{
+    color:blue;
+}

@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.bg-nav {
+  background-color: rgba(14, 29, 52, 0.8);
+}
+.color-none{
+  color:rgba(184, 184, 189, 0)
+}
+.underline {
+  width: 25px;
+  height: 5px;
+  background-color: #0052ff;
+}
+.section1-width {
+  height: auto;
+  padding-bottom: 72px;
+}
+.bg-img-sec1 {
+  background-image: url("https://islamramadanabdo.github.io/Faster/assets/img/hero-bg.png");
+  background-size: cover;
+  background-color: #0e1d34;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.p-30 {
+  padding-bottom: 35px;
+}
+.gap {
+  gap: 30px;
+}
+.ms-20 {
+  margin-left: 600px;
+}
+.color-gray {
+  color: rgb(221, 218, 218);
+}
+.color-gray:hover {
+  color: white;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
+  display: none;
+}
+.dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu .dropdown-menu li a:hover {
+  color: blue;
+  background-color: white;
+}
+.dropdown-menu li a:hover {
+  color: blue;
+  background-color: white;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+@media (max-width: 450px) {
+  .your {
+    font-size: 30px;
+  }
+}
+
+.nav-link.active {
+  color: white !important;
+  font-weight: bold;
+}
+
+/********************************************************************************************/
+.mt-80 {
+  margin-top: 80px;
+}
+.color-blue {
+  color: rgb(9, 9, 128);
+}
+.icon-hov:hover h5,
+.icon-hov:hover a p,
+.icon-hov:hover .fa-cart-flatbed,
+.icon-hov:hover .fa-truck,
+.icon-hov:hover .fa-truck-ramp-box {
+  color: blue;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+/*******************************************************************************************/
+.blue-op {
+  background-color: rgba(0, 0, 255, 0.5);
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  top: 35%;
+  right: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  border-radius: 50%;
+  border:none;
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+.circle::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgb(28, 28, 224);
+  animation: bubble 2s infinite;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+.color-blue-dark {
+  color: #0052ff;
+}
+.text-b {
+  color: #19335c;
+}
+/**************************************************************************************************/
+.w-70 {
+  width: 70px;
+  height: 3px;
+}
+.opacity-15 {
+  opacity: 15%;
+}
+.img-zoom {
+  transition: transform 0.5s ease;
+}
+
+.card-hover:hover .img-zoom {
+  transform: scale(1.1);
+}
+.card-hover:hover .card-title {
+  color: blue;
+}
+/**************************************************************************************************/
+.bg-img-sec5 {
+  background-image: url("https://islamramadanabdo.github.io/Faster/assets/img/cta-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ps-330 {
+  padding-left: 330px;
+}
+.pe-330 {
+  padding-right: 330px;
+}
+.bg-color {
+  background-color: rgba(14, 29, 52, 0.7);
+}
+.btn-trans {
+  background-color: rgba(184, 184, 189, 0);
+  border: 1px solid white;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.btn-trans:hover {
+  background-color: blue;
+  border: 1px solid blue;
+}
+.pt-150 {
+  padding-top: 150px;
+}
+.pb-150 {
+  padding-bottom: 150px;
+}
+@media (max-width: 780px) {
+  .ps-330 {
+    padding-left: 20px;
+  }
+  .pe-330 {
+    padding-right: 20px;
+  }
+}
+/**********************************************************************************************************/
+.pt-70{
+  padding-top: 70px;
+}
+.pb-70{
+  padding-bottom: 70px;
+}
+.border-radius{
+  border-radius: 10px;
+}
+/*********************************************************************************************************/
+.bg-img-sec8 {
+  background-image: url("https://islamramadanabdo.github.io/Faster/assets/img/testimonials-bg.jpg");
+  background-size: cover;
+}
+.bg-color-8 {
+  background-color: rgba(14, 29, 52, 0.7);
+  padding: 50px 0px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #bbb;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+.img-circle{
+  border: 7px solid rgba(158, 154, 154, 0.5);
+}
+.carousel-indicators .active {
+  background-color: white;
+  opacity: 1;
+}
+
+.big-btn{
+  background-color: #f7f8f9;
+}
+@media(max-width:450){
+ .response{
+  font-size: 20px;
+ }
+}
+/********************************************************************************************************/
+footer{
+  background-color: #0e1d34;
+  padding: 40px 0px;
+}
+.social{
+  border-radius:50%;
+  border:2px solid white;
+  background-color: rgba(255,255,255,0);
+  width:50px; height:50px
+}
+/**************************************************************************************************************/
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background: blue;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,.2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
