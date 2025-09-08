@@ -281,3 +281,12 @@ footer{
   visibility: visible;
   pointer-events: auto;
 }
+/*************************************************************************************/
+@media(min-width:1200px){
+   .p-st{
+    padding-left: 330px;
+   }
+   .p-en{
+    padding-right: 330px;
+   }
+}
